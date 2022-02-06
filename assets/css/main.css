@@ -1,0 +1,182 @@
+/* BASIC */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #333;
+  background-color: #fdfdfd;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  color: #2e2e2e;
+  font-weight: 700;
+  font-size: 4.5em;
+}
+
+p {
+  color: #333;
+  }
+
+p.tagline {
+  color: #2e2e2e;
+  font-size: 1.8em;
+  letter-spacing: 0em;
+  font-weight: 400;
+}
+
+
+/* HEADER */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+
+/* COVER */
+
+.cover {
+  padding: 0 1.5rem;
+}
+
+.cover-container {
+  max-width: 100%;
+}
+
+
+/* LINKS */
+a,
+a:focus,
+a:hover {
+  color: #333;
+}
+
+
+/* FOOTER */
+
+.copyright {
+  color: #2e2e2e;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+
+/* SOCIAL LINKS*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: .25s;
+  pointer-events: none;
+}
+
+li {
+  list-style:none;
+}
+
+li a { 
+  display:block;
+  float:left;
+  width: 16.5%;
+  padding: 0.8em 0;
+  text-align:center;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight:700;
+  letter-spacing:1px;
+  font-size: 2.5em;
+  color: #2e2e2e;
+  text-decoration:none;
+  text-transform:uppercase;
+  transition:.25s;
+}
+
+li a:hover {
+  margin:-5px 0 0 0;
+  color:#fff;
+}
+
+.socials {  
+  max-width: 35em;
+  margin:20px auto 0 auto;
+  background-color: transparent;
+}
+       
+.socials li:first-child a {
+  background:none !important;
+}
+.socials li:nth-child(2) a {
+  background:none !important;
+}
+.socials li:nth-child(3) a {
+  background:none !important;
+}
+.socials li:nth-child(4) a {
+  background:none !important;
+}
+.socials li:nth-child(5) a {
+  background:none !important;
+}
+.socials li:nth-child(6) a {
+  background:none !important;
+}
+
+
+  /* SOCIAL LINKS - CHANGE BACKGROUND COLOUR FOR EACH SOCIAL ACCOUNT */
+
+  .socials li:first-child:hover ~ .bg {
+    background: #1da1f2;
+  }
+  .socials li:nth-child(2):hover ~ .bg {
+    background: #c32aa3;
+  }
+  .socials li:nth-child(3):hover ~ .bg {
+    background: #3b5998;
+  }
+  .socials li:nth-child(4):hover ~ .bg {
+    background: #007bb5;
+  }
+  .socials li:nth-child(5):hover ~ .bg {
+    background: #4078c0;
+  }
+  .socials li:nth-child(6):hover ~ .bg {
+    background: #D44638;
+  }
+
+
+
+/* MOBILES */
+
+@media (max-width: 768px) {
+  
+  h1 {
+    font-size: 3em;
+  }
+
+  p.tagline {
+    font-size: 1.5em;
+    margin-bottom: 0;
+  }
+
+  li { 
+    font-size: 0.8em;
+  }
+
+  .copyright {
+    font-size: 0.8em;
+  }
+
+}

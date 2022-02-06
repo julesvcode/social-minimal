@@ -1,0 +1,42 @@
+Social Minimal 
+A minimal template designed by @julienvier
+
+I wanted to keep it super minimal and bare.
+The idea being that people already post a lot of content on socials and although having a website is still a statement it could only be a hub driving people to different platforms instead of duplicating the content.
+
+Contact:
+Twitter - @julienvier
+
+
+Made with:
+Bootstrap - getbootstrap.com
+Font Awesome - https://fontawesome.com/
+Google Fonts - fonts.google.com
+And <3 <3 <3
+
+List of HEX colours for the most popular social media platforms:
+facebook: #3b5998
+twitter: #1da1f2
+youtube: #ff0000
+instagram: #c32aa3
+pinterest: #bd081c
+googleplus: #db4437
+linkedin: #007bb5
+vimeo: #1ab7ea
+tumblr: #2c4762
+snapchat: #fffc00
+whatsapp: #25d366
+apple: #a6b1b7
+amazon: #ff9900
+medium: #02b875
+skypeblue: #00aff0
+flickr: #f40083
+yahoo: #430297
+twitch: #6441a4
+soundcloud: #ff5500
+spotifygreen: #1ed760
+dribbble: #ea4c89
+reddit: #ff5700
+quora: #aa2200
+vk: #4a76a8
+telegram: #0088cc
